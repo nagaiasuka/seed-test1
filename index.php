@@ -20,9 +20,27 @@ for($i = 1; $i <= 100; $i++){
         print "<br>";
     }
 }
+print "<br><br><br>";
+
 
 //問題２
+print "2.素数問題";
+print "<br><br>";
 
+for($s = 1; $s <=10000 ; $s++){
 
+    $point = 0;
+
+    for($j =1; $j <= $s;$j++){
+        if($s % $j == 0){
+            $point += 1;
+        }
+    }
+
+    if ($point ==2){
+        print $s ."<br>";
+    }
+
+}
 
 ?>
