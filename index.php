@@ -42,5 +42,17 @@ for($s = 1; $s <=10000 ; $s++){
     }
 
 }
+print "<br><br><br>";
+
+//問題3
+print "3.5次元配列";
+print "<br><br>";
+
+$prf =[
+    ['name' => 'Asuka','age' => '23','gender' => '男','from' => '熊本','like' => '肉','bad'=> '虫']
+    
+];
+
+print $prf[0]['age'];
 
 ?>
